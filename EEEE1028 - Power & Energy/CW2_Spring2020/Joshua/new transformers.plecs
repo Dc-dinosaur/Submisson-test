@@ -1,0 +1,178 @@
+Plecs {
+  Name          "single phase transformer 1"
+  Version       "4.3"
+  CircuitModel  "ContStateSpace"
+  StartTime     "0.0"
+  StopTime      "50"
+  Timeout       ""
+  Solver        "radau"
+  MaxStep       "0.00001"
+  InitStep      "-1"
+  FixedStep     "1e-3"
+  Refine        "1"
+  ZCStepSize    "1e-9"
+  RelTol        "1e-3"
+  AbsTol        "-1"
+  TurnOnThreshold "0"
+  SyncFixedStepTasks "2"
+  UseSingleCommonBaseRate "2"
+  LossVariableLimitExceededMsg "3"
+  NegativeSwitchLossMsg "3"
+  DivisionByZeroMsg "2"
+  StiffnessDetectionMsg "2"
+  MaxConsecutiveZCs "1000"
+  AlgebraicLoopWithStateMachineMsg "2"
+  AssertionAction "1"
+  InitializationCommands ""
+  InitialState  "1"
+  SystemState   "AAAACAAAAAADAAAAEgBUAGkAbQBlAFMAdABhAG0AcAAAABAAACWCNgJWRjz/A"
+"AAAFgBTAHQAYQB0AGUAVgBlAGMAdABvAHIAAAB/AAAAABlQbGVjc0FycmF5OjpEb3VibGVWZWN0b3"
+"IAAAAAAj+G9Jl5HT27v8GJP8ke1HsAAAAOAEMAbwBtAG0AZQBuAHQAAAAKAAAAAAA="
+  CodeGenParameterInlining "2"
+  CodeGenInliningExceptions "AAAACwAAAAAA"
+  CodeGenFloatingPointFormat "2"
+  CodeGenAbsTimeUsageMsg "3"
+  CodeGenBaseName ""
+  CodeGenOutputDir ""
+  CodeGenExtraOpts ""
+  CodeGenTarget "Generic"
+  CodeGenTargetSettings ""
+  ExtendedMatrixPrecision "1"
+  MatrixSignificanceCheck "2"
+  EnableStateSpaceSplitting "2"
+  DisplayStateSpaceSplitting "1"
+  DiscretizationMethod "2"
+  ExternalModeSettings ""
+  AlgebraicLoopMethod "1"
+  AlgebraicLoopTolerance "1e-6"
+  ScriptsDialogGeometry ""
+  ScriptsDialogSplitterPos "0"
+  Schematic {
+    Location      [0, 26; 1237, 789]
+    ZoomFactor    1.77778
+    SliderPosition [0, 369]
+    ShowBrowser   off
+    BrowserWidth  205
+    Component {
+      Type          Subsystem
+      Name          "Transformer\n90VA"
+      Show          on
+      Position      [410, 135]
+      Direction     up
+      Flipped       off
+      Encrypted     "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"
+"oCtUZAPfIcbgz0hgi3XwXJw=="
+    }
+    Component {
+      Type          Voltmeter
+      Name          "Voltage\n Vs"
+      Show          on
+      Position      [540, 135]
+      Direction     up
+      Flipped       off
+    }
+    Component {
+      Type          Voltmeter
+      Name          "Voltage\n Vp"
+      Show          on
+      Position      [275, 135]
+      Direction     down
+      Flipped       on
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   1
+      Points        [480, 135; 480, 85; 540, 85]
+      Branch {
+        DstComponent  "Voltage\n Vs"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [580, 85]
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   4
+      Points        [340, 145; 340, 85; 275, 85]
+      Branch {
+        DstComponent  "Voltage\n Vp"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [225, 85]
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   3
+      Points        [340, 155; 340, 190; 275, 190]
+      Branch {
+        DstComponent  "Voltage\n Vp"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [225, 190]
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   2
+      Points        [480, 145; 480, 185; 540, 185]
+      Branch {
+        DstComponent  "Voltage\n Vs"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [595, 185]
+      }
+    }
+    Annotation {
+      Name          "input voltage should be 240V rms"
+      Position      [225, 70]
+    } 
+    Annotation {
+      Name          "primary"
+      Position      [365, 185]
+    } 
+    Annotation {
+      Name          "secondary"
+      Position      [450, 185]
+    } 
+  }
+}
+DemoSignature "IIdbXz2jmApGb8ZLGjbocr+y+L37TdAOUM4O0FCZP/E="

@@ -1,0 +1,914 @@
+Plecs {
+  Name          "H61PWE_CW2_20317350"
+  Version       "4.4"
+  CircuitModel  "ContStateSpace"
+  StartTime     "0.0"
+  StopTime      "50"
+  Timeout       ""
+  Solver        "radau"
+  MaxStep       "0.00002"
+  InitStep      "-1"
+  FixedStep     "1e-3"
+  Refine        "1"
+  ZCStepSize    "1e-9"
+  RelTol        "1e-3"
+  AbsTol        "-1"
+  TurnOnThreshold "0"
+  SyncFixedStepTasks "2"
+  UseSingleCommonBaseRate "2"
+  LossVariableLimitExceededMsg "3"
+  NegativeSwitchLossMsg "3"
+  DivisionByZeroMsg "2"
+  StiffnessDetectionMsg "2"
+  MaxConsecutiveZCs "1000"
+  AlgebraicLoopWithStateMachineMsg "2"
+  AssertionAction "1"
+  InitializationCommands ""
+  InitialState  "1"
+  SystemState   "AAAACAAAAAADAAAAEgBUAGkAbQBlAFMAdABhAG0AcAAAABAAACWCNgJWRjz/A"
+"AAAFgBTAHQAYQB0AGUAVgBlAGMAdABvAHIAAAB/AAAAABlQbGVjc0FycmF5OjpEb3VibGVWZWN0b3"
+"IAAAAAAj+G9Jl5HT27v8GJP8ke1HsAAAAOAEMAbwBtAG0AZQBuAHQAAAAKAAAAAAA="
+  TaskingMode   "1"
+  TaskConfigurations ""
+  CodeGenParameterInlining "2"
+  CodeGenFloatingPointFormat "2"
+  CodeGenAbsTimeUsageMsg "3"
+  CodeGenBaseName ""
+  CodeGenOutputDir ""
+  CodeGenExtraOpts ""
+  CodeGenTarget "Generic"
+  CodeGenTargetSettings ""
+  ExtendedMatrixPrecision "1"
+  MatrixSignificanceCheck "2"
+  EnableStateSpaceSplitting "2"
+  DisplayStateSpaceSplitting "1"
+  DiscretizationMethod "2"
+  ExternalModeSettings ""
+  AlgebraicLoopMethod "1"
+  AlgebraicLoopTolerance "1e-6"
+  ScriptsDialogGeometry ""
+  ScriptsDialogSplitterPos "0"
+  Schematic {
+    Location      [0, 26; 1536, 780]
+    ZoomFactor    1.18627
+    SliderPosition [0, 0]
+    ShowBrowser   off
+    BrowserWidth  205
+    Component {
+      Type          Subsystem
+      Name          "Transformer\n90VA"
+      Show          on
+      Position      [415, 180]
+      Direction     up
+      Flipped       off
+      Encrypted     "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"
+"wXfj4W6YQQ=="
+    }
+    Component {
+      Type          Voltmeter
+      Name          "Voltage\n Vs"
+      Show          on
+      Position      [545, 180]
+      Direction     up
+      Flipped       off
+    }
+    Component {
+      Type          Voltmeter
+      Name          "Voltage\n Vp"
+      Show          on
+      Position      [280, 180]
+      Direction     down
+      Flipped       on
+    }
+    Component {
+      Type          ACVoltageSource
+      Name          "V_ac"
+      Show          on
+      Position      [205, 200]
+      Direction     down
+      Flipped       on
+      Parameter {
+        Variable      "V"
+        Value         "240*2^(1/2)"
+        Show          off
+      }
+      Parameter {
+        Variable      "w"
+        Value         "2*pi*50"
+        Show          off
+      }
+      Parameter {
+        Variable      "phi"
+        Value         "0"
+        Show          off
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math"
+      Show          on
+      Position      [295, 295]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "1"
+        Show          off
+      }
+    }
+    Component {
+      Type          Reference
+      SrcComponent  "Components/Control/Filters/Periodic Average"
+      Name          "Periodic Average1"
+      Show          on
+      Position      [370, 295]
+      Direction     up
+      Flipped       off
+      Frame         [-15, -15; 15, 15]
+      LabelPosition [0, 18]
+      LabelAlign    up
+      Parameter {
+        Variable      "T_average"
+        Value         "0.02"
+        Show          off
+      }
+      Terminal {
+        Type          Output
+        Position      [19, 0]
+        Direction     right
+      }
+      Terminal {
+        Type          Input
+        Position      [-15, 0]
+        Direction     left
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math1"
+      Show          on
+      Position      [445, 295]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "2"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "RMS Vp"
+      Show          on
+      Position      [530, 295]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math2"
+      Show          on
+      Position      [705, 100]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "1"
+        Show          off
+      }
+    }
+    Component {
+      Type          Reference
+      SrcComponent  "Components/Control/Filters/Periodic Average"
+      Name          "Periodic Average2"
+      Show          on
+      Position      [780, 100]
+      Direction     up
+      Flipped       off
+      Frame         [-15, -15; 15, 15]
+      LabelPosition [0, 18]
+      LabelAlign    up
+      Parameter {
+        Variable      "T_average"
+        Value         "0.02"
+        Show          off
+      }
+      Terminal {
+        Type          Output
+        Position      [19, 0]
+        Direction     right
+      }
+      Terminal {
+        Type          Input
+        Position      [-15, 0]
+        Direction     left
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math3"
+      Show          on
+      Position      [855, 100]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "2"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "RMS Vs"
+      Show          on
+      Position      [940, 100]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Ammeter
+      Name          "Am2"
+      Show          on
+      Position      [625, 155]
+      Direction     up
+      Flipped       off
+    }
+    Component {
+      Type          Math
+      Name          "Math4"
+      Show          on
+      Position      [705, 155]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "1"
+        Show          off
+      }
+    }
+    Component {
+      Type          Reference
+      SrcComponent  "Components/Control/Filters/Periodic Average"
+      Name          "Periodic Average3"
+      Show          on
+      Position      [780, 155]
+      Direction     up
+      Flipped       off
+      Frame         [-15, -15; 15, 15]
+      LabelPosition [0, 18]
+      LabelAlign    up
+      Parameter {
+        Variable      "T_average"
+        Value         "0.02"
+        Show          off
+      }
+      Terminal {
+        Type          Output
+        Position      [19, 0]
+        Direction     right
+      }
+      Terminal {
+        Type          Input
+        Position      [-15, 0]
+        Direction     left
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math5"
+      Show          on
+      Position      [855, 155]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "2"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "RMS I2"
+      Show          on
+      Position      [940, 155]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math6"
+      Show          on
+      Position      [295, 355]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "1"
+        Show          off
+      }
+    }
+    Component {
+      Type          Reference
+      SrcComponent  "Components/Control/Filters/Periodic Average"
+      Name          "Periodic Average4"
+      Show          on
+      Position      [370, 355]
+      Direction     up
+      Flipped       off
+      Frame         [-15, -15; 15, 15]
+      LabelPosition [0, 18]
+      LabelAlign    up
+      Parameter {
+        Variable      "T_average"
+        Value         "0.02"
+        Show          off
+      }
+      Terminal {
+        Type          Output
+        Position      [19, 0]
+        Direction     right
+      }
+      Terminal {
+        Type          Input
+        Position      [-15, 0]
+        Direction     left
+      }
+    }
+    Component {
+      Type          Math
+      Name          "Math7"
+      Show          on
+      Position      [445, 355]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Operator"
+        Value         "2"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "RMS I1"
+      Show          on
+      Position      [530, 355]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Ammeter
+      Name          "Am1"
+      Show          on
+      Position      [205, 165]
+      Direction     down
+      Flipped       off
+    }
+    Component {
+      Type          Product
+      Name          "Product1"
+      Show          on
+      Position      [620, 330]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Inputs"
+        Value         "2"
+        Show          off
+      }
+      Parameter {
+        Variable      "DataType"
+        Value         "11"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "Input apparent power"
+      Show          on
+      Position      [720, 330]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Reference
+      SrcComponent  "Components/Control/Filters/Periodic Average"
+      Name          "Periodic Average5"
+      Show          on
+      Position      [370, 425]
+      Direction     up
+      Flipped       off
+      Frame         [-15, -15; 15, 15]
+      LabelPosition [0, 18]
+      LabelAlign    up
+      Parameter {
+        Variable      "T_average"
+        Value         "0.02"
+        Show          off
+      }
+      Terminal {
+        Type          Output
+        Position      [19, 0]
+        Direction     right
+      }
+      Terminal {
+        Type          Input
+        Position      [-15, 0]
+        Direction     left
+      }
+    }
+    Component {
+      Type          Product
+      Name          "Product2"
+      Show          on
+      Position      [295, 425]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Inputs"
+        Value         "2"
+        Show          off
+      }
+      Parameter {
+        Variable      "DataType"
+        Value         "11"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "Input active power"
+      Show          on
+      Position      [530, 425]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Reference
+      SrcComponent  "Components/Control/Filters/Periodic Average"
+      Name          "Periodic Average6"
+      Show          on
+      Position      [780, 230]
+      Direction     up
+      Flipped       off
+      Frame         [-15, -15; 15, 15]
+      LabelPosition [0, 18]
+      LabelAlign    up
+      Parameter {
+        Variable      "T_average"
+        Value         "0.02"
+        Show          off
+      }
+      Terminal {
+        Type          Output
+        Position      [19, 0]
+        Direction     right
+      }
+      Terminal {
+        Type          Input
+        Position      [-15, 0]
+        Direction     left
+      }
+    }
+    Component {
+      Type          Product
+      Name          "Product3"
+      Show          on
+      Position      [705, 230]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "Inputs"
+        Value         "2"
+        Show          off
+      }
+      Parameter {
+        Variable      "DataType"
+        Value         "11"
+        Show          off
+      }
+    }
+    Component {
+      Type          Display
+      Name          "Output active power"
+      Show          on
+      Position      [900, 230]
+      Direction     up
+      Flipped       off
+      Frame         [-31, -11; 31, 11]
+      LabelPosition [0, 14]
+      LabelAlign    up
+      Parameter {
+        Variable      "Notation"
+        Value         "1"
+        Show          off
+      }
+      Parameter {
+        Variable      "Precision"
+        Value         "4"
+        Show          off
+      }
+    }
+    Component {
+      Type          Resistor
+      Name          "RL"
+      Show          on
+      Position      [625, 195]
+      Direction     up
+      Flipped       off
+      Parameter {
+        Variable      "R"
+        Value         "10"
+        Show          off
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   1
+      Points        [485, 180; 485, 130; 545, 130]
+      Branch {
+        DstComponent  "Voltage\n Vs"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [625, 130]
+        DstComponent  "Am2"
+        DstTerminal   1
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   4
+      Points        [345, 190; 345, 130; 280, 130]
+      Branch {
+        DstComponent  "Voltage\n Vp"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [205, 130]
+        DstComponent  "Am1"
+        DstTerminal   2
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   3
+      Points        [345, 200; 345, 235; 280, 235]
+      Branch {
+        DstComponent  "Voltage\n Vp"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [205, 235]
+        DstComponent  "V_ac"
+        DstTerminal   2
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Transformer\n90VA"
+      SrcTerminal   2
+      Points        [485, 190; 485, 230; 545, 230]
+      Branch {
+        DstComponent  "Voltage\n Vs"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [625, 230]
+        DstComponent  "RL"
+        DstTerminal   2
+      }
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Periodic Average1"
+      SrcTerminal   1
+      DstComponent  "Math1"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math"
+      SrcTerminal   1
+      DstComponent  "Periodic Average1"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Periodic Average2"
+      SrcTerminal   1
+      DstComponent  "Math3"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math2"
+      SrcTerminal   1
+      DstComponent  "Periodic Average2"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Periodic Average3"
+      SrcTerminal   1
+      DstComponent  "Math5"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math4"
+      SrcTerminal   1
+      DstComponent  "Periodic Average3"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Periodic Average4"
+      SrcTerminal   1
+      DstComponent  "Math7"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math6"
+      SrcTerminal   1
+      DstComponent  "Periodic Average4"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "Am1"
+      SrcTerminal   1
+      DstComponent  "V_ac"
+      DstTerminal   1
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Product1"
+      SrcTerminal   1
+      DstComponent  "Input apparent power"
+      DstTerminal   1
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math1"
+      SrcTerminal   1
+      Points        [475, 295]
+      Branch {
+        DstComponent  "RMS Vp"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [475, 325]
+        DstComponent  "Product1"
+        DstTerminal   2
+      }
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math7"
+      SrcTerminal   1
+      Points        [475, 355]
+      Branch {
+        DstComponent  "RMS I1"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [475, 335]
+        DstComponent  "Product1"
+        DstTerminal   3
+      }
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Product2"
+      SrcTerminal   1
+      DstComponent  "Periodic Average5"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Periodic Average5"
+      SrcTerminal   1
+      DstComponent  "Input active power"
+      DstTerminal   1
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Product3"
+      SrcTerminal   1
+      DstComponent  "Periodic Average6"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Periodic Average6"
+      SrcTerminal   1
+      DstComponent  "Output active power"
+      DstTerminal   1
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Am2"
+      SrcTerminal   3
+      Points        [675, 155]
+      Branch {
+        DstComponent  "Math4"
+        DstTerminal   2
+      }
+      Branch {
+        DstComponent  "Product3"
+        DstTerminal   2
+      }
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Am1"
+      SrcTerminal   3
+      Points        [180, 165; 180, 355; 225, 355]
+      Branch {
+        DstComponent  "Math6"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [225, 430]
+        DstComponent  "Product2"
+        DstTerminal   3
+      }
+    }
+    Connection {
+      Type          Wire
+      SrcComponent  "RL"
+      SrcTerminal   1
+      DstComponent  "Am2"
+      DstTerminal   2
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math3"
+      SrcTerminal   1
+      DstComponent  "RMS Vs"
+      DstTerminal   1
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Math5"
+      SrcTerminal   1
+      DstComponent  "RMS I2"
+      DstTerminal   1
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Voltage\n Vs"
+      SrcTerminal   3
+      Points        [575, 180; 575, 100; 660, 100]
+      Branch {
+        DstComponent  "Math2"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [660, 235]
+        DstComponent  "Product3"
+        DstTerminal   3
+      }
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Voltage\n Vp"
+      SrcTerminal   3
+      Points        [250, 180; 250, 295]
+      Branch {
+        DstComponent  "Math"
+        DstTerminal   2
+      }
+      Branch {
+        Points        [235, 295; 235, 420]
+        DstComponent  "Product2"
+        DstTerminal   2
+      }
+    }
+    Annotation {
+      Name          "input voltage should be 240V rms"
+      Position      [240, 110]
+    } 
+    Annotation {
+      Name          "primary"
+      Position      [370, 230]
+    } 
+    Annotation {
+      Name          "secondary"
+      Position      [455, 230]
+    } 
+  }
+}
